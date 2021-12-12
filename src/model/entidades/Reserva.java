@@ -1,6 +1,7 @@
 package model.entidades;
 
 import java.sql.Time;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
@@ -46,7 +47,7 @@ public class Reserva {
 
 	@Override
 	public String toString() {
-		return "Reserva: Quarto número "				
+		return " Reserva: Quarto número "				
 				+ numeroQuarto
 				+ ", check-in: "
 				+ sdf.format(checkin)
